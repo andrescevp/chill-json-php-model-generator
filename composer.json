@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Chill\\": "src/Chill",
+            "Chill\\Test\\": "test/"
+        }
+    },
+    "require": {
+        "gossi/php-code-generator": "^0.4.2"
+    },
+    "config": {
+        "bin-dir": "./bin"
+    }
+}
